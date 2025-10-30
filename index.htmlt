@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Focus Makashfa — Creativity Pays</title>
+  <link rel="icon" href="dog.jpg" type="image/jpg">
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", Arial, sans-serif;
+      background: linear-gradient(135deg, #8e44ad, #9b59b6);
+      color: white;
+      text-align: center;
+    }
+    header {
+      background: rgba(0, 0, 0, 0.2);
+      padding: 20px 0;
+      position: sticky;
+      top: 0;
+      backdrop-filter: blur(6px);
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ffd700;
+    }
+    .hero {
+      padding: 80px 20px;
+    }
+    .hero img {
+      width: 280px;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      margin-top: 20px;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.3em;
+    }
+    h2 {
+      font-size: 1.5em;
+      color: #ffd700;
+      margin-top: 0;
+    }
+    footer {
+      margin-top: 60px;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.3);
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="articles.html">Articles</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Focus Makashfa</h1>
+    <h2>Creativity Pays</h2>
+    <img src="dog.jpg" alt="Dog image">
+    <p>Welcome to <strong>Focus Makashfa</strong> — a creative space for ideas, sports, life stories, and inspiration for a changing world.</p>
+  </section>
+
+  <footer>
+    © 2025 Focus Makashfa. All rights reserved.
+  </footer>
+</body>
+</html>
